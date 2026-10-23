@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+.venv-1/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Data and model artifacts
+data/
+models/
+checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE and notebooks
+.vscode/
+.ipynb_checkpoints/
